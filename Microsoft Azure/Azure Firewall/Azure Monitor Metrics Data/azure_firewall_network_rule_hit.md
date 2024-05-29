@@ -2,7 +2,6 @@
 - [Introduction](#introduction)
 
 
-
 # Introduction <a name="introduction"></a>
 Introduction
 The API is used to retrieve Azure Firewall FirewallHealth metric data from Azure Platform. The metric is Number of times Network rules were hit.
