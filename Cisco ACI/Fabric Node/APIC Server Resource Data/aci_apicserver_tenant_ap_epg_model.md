@@ -48,6 +48,6 @@ API Response - Cisco ACI Tenant AP EPG Model
         "ap": "Demo-PBR",
         "epg": "WEB",
         "cep": "00:50:56:BE:40:C1"
-    },     ....
+    }
 ]
 ```
