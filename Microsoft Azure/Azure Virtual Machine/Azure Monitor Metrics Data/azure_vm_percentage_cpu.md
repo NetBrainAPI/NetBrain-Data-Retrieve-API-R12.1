@@ -13,5 +13,5 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 For a complete list of available metrics for each Azure resource, please refer to the following document: https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-supported .
 
 
-For API detailed definition, such as Input, Output, etc., please refer to the following document:
+For API detailed definition, such as input, output, etc., please refer to the following document:
 [Azure Resource Management API](https://learn.microsoft.com/en-us/rest/api/monitor/metrics/list?view=rest-monitor-2023-10-01&tabs=HTTP)
