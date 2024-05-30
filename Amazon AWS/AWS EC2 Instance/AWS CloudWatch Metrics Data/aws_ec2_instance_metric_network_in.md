@@ -1,7 +1,7 @@
 # Table of Contents
 - [Introduction](#introduction)
 - [Content](#content)
-    - [content 1 -- Cloud Watch API Parameters](#content-1) 
+    - [Cloud Watch API Parameters](#content-1) 
 
 
 # Introduction <a name="introduction"></a>
