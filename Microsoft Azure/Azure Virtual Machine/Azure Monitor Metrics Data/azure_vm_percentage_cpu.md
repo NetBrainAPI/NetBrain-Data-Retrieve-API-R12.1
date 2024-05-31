@@ -12,6 +12,6 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 
 For a complete list of available metrics for each Azure resource, please reference to Microsoft document: https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-supported .
 
-For this specific metric detailed information, please refer to Microsoft document: https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-compute-virtualmachines-metrics
+For this Percentage CPU metric detailed information, please refer to Microsoft document: https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-compute-virtualmachines-metrics
 
-For Azure Metrics API detailed definition, like Input, Output, etc., please refer to Microsoft Azure Resource Management API document: https://learn.microsoft.com/en-us/rest/api/monitor/metrics/list?view=rest-monitor-2023-10-01&tabs=HTTP
+For Azure Metrics APIs detailed definition, like Input, Output, etc., please refer to Microsoft Azure Resource Management API document: https://learn.microsoft.com/en-us/rest/api/monitor/metrics/list?view=rest-monitor-2023-10-01&tabs=HTTP
