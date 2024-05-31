@@ -6,7 +6,7 @@
 The API is used to get the Azure Virtual Network Gateway IPSec VPN connection information from Azure Platform. 
 The response includes the details of vpn connection such as provisioningState, connectionType, connectionProtocol, routingWeight, authenticationType, etc.
 
-It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API. 
+The original Azure RESTful API used is <Virtual Network Gateways - List Connections>.
 
 For a complete list of available API resources for Azure Virtual Netwokr Gateway , please refer to Microsoft document: https://learn.microsoft.com/en-us/rest/api/network-gateway/virtual-network-gateways?view=rest-network-gateway-2023-09-01
 
