@@ -18,7 +18,7 @@ The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloud
 | AWS REST API Function | get_metric_data |
 | Cloud Watch Metric Name | NetworkIn |
 
-## Cloud Watch API Parameters <a name="content-1"></a>
+## AWS CloudWatch API Parameters <a name="content-1"></a>
 
 |**Highlight**|**Detail**|
 |------|------|
