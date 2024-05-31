@@ -7,7 +7,7 @@ The API is used to retrieve Azure Virtual Machine Percentage CPU metric data fro
 The metric is about the CPU percentage of the allocated compute units that are currently in use by the Virtual Machine(s). 
 
 
-It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API. 
+It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API. The original Azure monitor metrics name: Percentage CPU. 
 
 
 For a complete list of available metrics for each Azure resource, please reference to Microsoft document: https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-supported .
