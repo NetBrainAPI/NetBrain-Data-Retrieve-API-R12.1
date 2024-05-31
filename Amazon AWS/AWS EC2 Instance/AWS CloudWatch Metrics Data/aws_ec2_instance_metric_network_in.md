@@ -11,7 +11,7 @@ The number reported is the number of bytes received during the last one hour.
 The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloudwatch metrics of AWS rest API.
 
 # Content <a name="content"></a>
-|**Highlight**|**Detail**|
+|**Name**|**Value**|
 |------|------|
 | AWS Device Type | EC2 Instance |
 | AWS API Resource Type | Cloudwatch |
@@ -20,7 +20,7 @@ The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloud
 
 ## AWS CloudWatch API Parameters <a name="content-1"></a>
 
-|**Highlight**|**Detail**|
+|**Name**|**Value**|
 |------|------|
 | Duration | EC2 Instance |
 | Maximum Data Points* | 20 |
