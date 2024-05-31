@@ -9,4 +9,5 @@ The response includes the details of vpn connection such as provisioningState, c
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API. 
 
 For a complete list of available API resources for Azure Virtual Netwokr Gateway , please refer to Microsoft document: https://learn.microsoft.com/en-us/rest/api/network-gateway/virtual-network-gateways?view=rest-network-gateway-2023-09-01
+
 For the original Azure API detailed information, please refer to Microsoft document: https://learn.microsoft.com/en-us/rest/api/network-gateway/virtual-network-gateways/list-connections?view=rest-network-gateway-2023-09-01&tabs=HTTP
