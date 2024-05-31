@@ -8,7 +8,7 @@
 The API is used to get the number of bytes received by the instance on all network interfaces. This AWS CloudWatch metricS identifies the volume of incoming network traffic to a single instance. 
 The number reported is the number of bytes received during the last one hour.
 
-The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloudwatch metricS of AWS rest API.
+The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloudwatch metrics of AWS rest API.
 
 # Content <a name="content"></a>
 |**Highlight**|**Detail**|
