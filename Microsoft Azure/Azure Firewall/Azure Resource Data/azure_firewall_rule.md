@@ -23,7 +23,6 @@ Below are the Azure APIs used to generate this configuration.
 # Samples <a name="sample"></a>
 ## Sample 1 -- Classic Firewall Rules <a name="sample-1"></a>
 
-API Response - Classic Firewall Rules
 <details>
 <summary>API Response - Classic Firewall Rules</summary>
 <p>
@@ -174,8 +173,6 @@ API Response - Classic Firewall Rules
 
 
 ## Sample 2 -- Firewall Rules of Firewall Policies <a name="sample-2"></a>
-
-API Response - Firewall Rules of Firewall Policies
 
 <details>
 <summary>API Response - Firewall Rules of Firewall Policies</summary>

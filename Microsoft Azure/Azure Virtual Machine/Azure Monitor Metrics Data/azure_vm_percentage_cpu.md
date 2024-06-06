@@ -14,4 +14,5 @@ For a complete list of available metrics for each Azure resource, please referen
 
 For this Percentage CPU metric detailed information, please refer to Microsoft document: https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-compute-virtualmachines-metrics
 
-For Azure Metrics APIs detailed definition, like Input, Output, etc., please refer to Microsoft Azure Resource Management API document: https://learn.microsoft.com/en-us/rest/api/monitor/metrics/list?view=rest-monitor-2023-10-01&tabs=HTTP
+For API detailed definition, such as input, output, etc., please refer to the following document:
+[Azure Resource Management API document](https://learn.microsoft.com/en-us/rest/api/monitor/metrics/list?view=rest-monitor-2023-10-01&tabs=HTTP)
