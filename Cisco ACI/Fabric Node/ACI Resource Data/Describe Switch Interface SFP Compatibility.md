@@ -4,9 +4,7 @@
 - [Samples](#sample)
 
 # Introduction <a name="introduction"></a>
-This API is used to check switch interface SFP compatibility. SFP (Small Form-factor Pluggable) modules are interchangeable, hot-swappable components
-
-used in networking equipment to connect fiber optic or copper cables. Interfaces need to be compatible with specific SFP modules to establish proper connections. 
+This API is used to check switch interface SFP compatibility. SFP (Small Form-factor Pluggable) modules are interchangeable, hot-swappable components used in networking equipment to connect fiber optic or copper cables. Interfaces need to be compatible with specific SFP modules to establish proper connections. 
 
 For more detail information about Cisco ACI REST API, please refer to the following document: https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/4-x/rest-api-config/Cisco-APIC-REST-API-Configuration-Guide-411/Cisco-APIC-REST-API-Configuration-Guide-411_chapter_0110.html
 

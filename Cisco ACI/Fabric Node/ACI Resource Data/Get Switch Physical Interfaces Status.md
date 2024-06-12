@@ -4,9 +4,7 @@
 - [Samples](#sample)
 
 # Introduction <a name="introduction"></a>
-This API is used to obtain the status of switch physical interfaces. Monitoring the status of switch physical interfaces is fundamental for maintaining network health,
-
-ensuring performance, enhancing security, facilitating troubleshooting, and supporting overall network management and operations.
+This API is used to obtain the status of switch physical interfaces. Monitoring the status of switch physical interfaces is fundamental for maintaining network health, ensuring performance, enhancing security, facilitating troubleshooting, and supporting overall network management and operations.
 
 For more detail information about Cisco ACI REST API, please refer to the following document: https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/4-x/rest-api-config/Cisco-APIC-REST-API-Configuration-Guide-411/Cisco-APIC-REST-API-Configuration-Guide-411_chapter_0110.html
 
