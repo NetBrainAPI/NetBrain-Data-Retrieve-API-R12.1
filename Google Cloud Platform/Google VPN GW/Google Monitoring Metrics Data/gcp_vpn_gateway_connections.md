@@ -2,7 +2,7 @@
 - [Introduction](#introduction)
 
 # Introduction <a name="introduction"></a>
-The API is used to retrieve GCP number of HA connections per VPN gateway from GCP Platform. it leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
+The API is used to retrieve GCP number of HA connections per VPN gateway from GCP Platform. It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
 
 
 

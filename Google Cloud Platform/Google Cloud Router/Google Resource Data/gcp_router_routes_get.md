@@ -18,4 +18,4 @@ For a complete list of available API resources for GCP, please refer to the foll
 
 
 For API detailed definitions, such as input, output, filters, etc., please refer to the following document:
-[Google Cloud Observability ](https://cloud.google.com/compute/docs/reference/rest/v1/routes/get)
+[Google Cloud Observability](https://cloud.google.com/compute/docs/reference/rest/v1/routes/get)
