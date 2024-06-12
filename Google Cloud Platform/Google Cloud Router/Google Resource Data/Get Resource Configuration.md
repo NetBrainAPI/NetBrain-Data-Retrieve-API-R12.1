@@ -4,7 +4,7 @@
 - [Samples](#sample)
 
 # Introduction <a name="introduction"></a>
-The configuration of the Google Cloud Router is dependent on the Google API response of the Google Cloud Router as the primary response. The Google API provides detailed information regarding the configuration of the routers, including its name, region, network and etc.
+The configuration of the Google Cloud Router is dependent on the Google API response of the Google Cloud Router as the primary response. The Google API provides detailed information regarding the configuration of the routers, including its name, region, network, etc.
 
 # Content <a name="content"></a>
 Below are the Google APIs used to generate this configuration.

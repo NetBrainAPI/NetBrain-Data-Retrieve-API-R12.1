@@ -4,7 +4,7 @@
 - [Samples](#sample)
 
 # Introduction <a name="introduction"></a>
-The configuration of the Google Partner Interconnect relies solely on the corresponding Google API of the interconnectAttachments. The Google API provides detailed information regarding the configuration of the instance, including its bandwidth, partnerMetadata, etc.
+The configuration of the Google Partner Interconnect relies solely on the corresponding Google API of the interconnect Attachments. The Google API provides detailed information regarding the configuration of the instance, including its bandwidth, partnerMetadata, etc.
 
 # Content <a name="content"></a>
 Below are the Google APIs used to generate this configuration.
