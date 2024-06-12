@@ -4,12 +4,14 @@
 - [Samples](#sample)
 
 # Introduction <a name="introduction"></a>
-This API is used to get all contracts which are provided by Provider EPGs. Provider EPGs offer services via these contracts to consumer EPGs.
+This API is used to get filters which are applied to endpoint groups (EPGs) and contracts to control the communication between different EPGs.
 
-For more detail information about Cisco ACI REST API, please refer to https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/4-x/rest-api-config/Cisco-APIC-REST-API-Configuration-Guide-411/Cisco-APIC-REST-API-Configuration-Guide-411_chapter_0110.html
+Filters can be based on various attributes such as IP addresses, MAC addresses, TCP/UDP ports, VLAN tags, or even application profiles.
+
+For more detail information about Cisco ACI REST API, please refer to the following document: https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/4-x/rest-api-config/Cisco-APIC-REST-API-Configuration-Guide-411/Cisco-APIC-REST-API-Configuration-Guide-411_chapter_0110.html
 
 # Content <a name="content"></a>
-Below REST API is used to get contracts provided by EPGs from Cisco ACI Platform. 
+Below REST API is used to get filters from Cisco ACI Platform. 
 
 
 https://apic-ip-address//api/node/class/fvRsProv.json?&order-by=fvRsProv.modTs|desc
@@ -31,7 +33,6 @@ https://apic-ip-address//api/node/class/fvRsProv.json?&order-by=fvRsProv.modTs|d
         "provider_epg": "QA_MS_Tenant/UntitledAP1/QA_MS_EPG4",
         "prov_contract": "QA_MS_Tenant/QA_MS_Contract"
     },    
-
 ]
 ```
 </details>

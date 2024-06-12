@@ -21,7 +21,7 @@ https://apic-ip-address/api/class/fvTenant.json?query-target=subtree&target-subt
 
 
 # Sample <a name="sample"></a>
-API Response - Cisco ACI Tenant AP EPG Model
+<details><summary>API Response - Cisco ACI Tenant AP EPG Model</summary>
 
 ```json
 [
