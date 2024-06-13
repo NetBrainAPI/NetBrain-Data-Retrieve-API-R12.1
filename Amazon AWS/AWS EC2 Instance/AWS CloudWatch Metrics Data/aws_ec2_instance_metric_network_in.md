@@ -22,7 +22,7 @@ The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloud
 
 |**Name**|**Value**|
 |------|------|
-| Duration | last one hour |
+| Duration | last 1 hour |
 | Maximum Data Points* | 20 |
 | Period* | 3600 sec |
 | Stat* | Sum |
