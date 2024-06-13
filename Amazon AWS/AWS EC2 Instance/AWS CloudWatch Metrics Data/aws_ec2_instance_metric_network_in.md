@@ -22,20 +22,18 @@ The API is available for AWS EC2 device types in Netbrain and uses the AWS Cloud
 
 |**Name**|**Value**|
 |------|------|
-| Duration | EC2 Instance |
+| Duration | last one hour |
 | Maximum Data Points* | 20 |
 | Period* | 3600 sec |
-| Stat* | SUM |
+| Stat* | Sum |
 
 Maximum Data Points: The maximum number of data points the request should return before paginating
 
 Period: The granularity, in seconds, of the returned data points
 
-Stat: The statistic to return. Sum is the sum of the values of the all data points collected during the period
+Stat: The statistic to return. <b>Sum</b> refers to the sum of the values of the all data points collected during the period
 
 
 
 
-For more details about the AWS CloudWatch API, please refer to: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
-
----THE END---
+For more details about the AWS CloudWatch API, please refer to the following document: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
