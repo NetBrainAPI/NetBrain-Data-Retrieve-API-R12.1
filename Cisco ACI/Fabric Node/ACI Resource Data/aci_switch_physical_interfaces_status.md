@@ -43,7 +43,7 @@ https://apic-ip-address/api/node/class/ethpmAggrIf.json?&order-by=ethpmAggrIf.mo
         "state": "down",
         "usage": "discovery"
     },
-
+    //...
 ]
 ```
 </details>

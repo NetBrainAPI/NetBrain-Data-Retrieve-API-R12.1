@@ -35,7 +35,7 @@ https://apic-ip-address/api/node/class/fvRsCEpToPathEp.json?&order-by=fvRsCEpToP
         "cep": "00:0C:29:D0:BF:5D",
         "port": "pod-2/node-104/QA_FrontServer-VPC-17"
     },
-
+    //...
 ]
 ```
 </details>

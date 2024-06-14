@@ -91,7 +91,7 @@ https://apic-ip-address/api/class/<dn>/ethpmFcot.json
         "baseResvd2": "0",
         "baseResvd3": "0",
         "baseResvd4": "0,0,0",
-
+        //...
       }
     }
   }
