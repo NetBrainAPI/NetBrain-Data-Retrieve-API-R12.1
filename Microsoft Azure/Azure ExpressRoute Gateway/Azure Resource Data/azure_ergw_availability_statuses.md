@@ -3,11 +3,6 @@
 
 
 # Introduction <a name="introduction"></a>
-# Table of Contents
-- [Introduction](#introduction)
-
-
-# Introduction <a name="introduction"></a>
 The API is used to get the Azure ExpressRoute Gateway availability statuses information from Azure API Server (https://management.azure.com/). The response includes the details like id, name, location and properties.
 
 
