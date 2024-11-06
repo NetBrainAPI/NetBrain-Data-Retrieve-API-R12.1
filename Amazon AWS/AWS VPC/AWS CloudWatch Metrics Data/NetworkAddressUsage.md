@@ -13,7 +13,7 @@ The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP
 # Metric Info <a name="metric-info"></a>
 * <b>Metric Name</b>: NetworkAddressUsage
 * <b>Namespace</b>: AWS/EC2
-* <b>Unit: Count</b> - This metric is reported as a count of IP addresses used.
+* <b>Unit</b>: Count
 * <b>Display Name in NetBrain</b>: VPC Network Address Usage
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
