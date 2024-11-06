@@ -17,6 +17,6 @@ The API belongs to the device type AWS Virtual private gateway, and uses the ec2
 | Filter key passed in API | vpn-gateway-id |
 
 
-For more details about the AWS REST API describe_vpn_connections, please refer to the following document:
+For more details about the AWS REST API `describe_vpn_connections`, please refer to the following document:
 https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2/client/describe_vpn_connections.html
 
