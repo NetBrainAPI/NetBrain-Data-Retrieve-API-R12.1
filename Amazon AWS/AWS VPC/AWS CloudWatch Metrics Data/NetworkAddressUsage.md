@@ -21,10 +21,10 @@ The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP
 * <b>Statistics</b>: Default value is Sum
   * <b>Average</b>: Average number of IP addresses in use over a period.
   * <b>Sum</b>: Total number of IP addresses used within a specific time frame.
-  * <b>Maximum</b>: Helps identify peak usage moments, which may indicate high traffic loads.
   * <b>Minimum</b>: Minimum number of IP addresses in use during the time period.
+  * <b>Maximum</b>: Helps identify peak usage moments, which may indicate high traffic loads.
 * <b>Period</b>: Default value is 3600 second.
-  * <b>Recommended values based on monitoring needs:
+  * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring
     * <b>3600 seconds</b> for broader trend analysis over longer durations
 
