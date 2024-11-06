@@ -1,36 +1,40 @@
 # Table of Contents
-- [Introduction](#introduction)
+- [Overview](#overview)
+- [User-Defined ParametersActiveFlowCount_TCP](#user-defined)
+- [Use Cases Example](#example)
+    - [Use Case 1 -- Capacity Management](#example-1) 
+    - [Use Case 2 -- Cost Control in Multi-Subnet Architectures](#example-2)
+- [Reference](#reference)
+
+# Overview <a name="overview"></a>
+The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP addresses currently in use within a specific subnet in an Amazon Virtual Private Cloud (VPC). Monitoring this metric helps manage IP address allocation within subnets to prevent address exhaustion.
+
+* <b>Metric Name</b>: NetworkAddressUsage
+* <b>Namespace</b>: AWS/EC2
+* <b>Unit: Count</b> - This metric is reported as a count of IP addresses used.
+* <b>Display Name in NetBrain</b>: VPC Network Address Usage
+
+# User-Defined ParametersActiveFlowCount_TCP <a name="user-defined"></a>
+* <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
+* <b>Statistics</b>: Default value is Sum
+  * <b>Average</b>: Average number of IP addresses in use over a period.
+  * <b>Sum</b>: Total number of IP addresses used within a specific time frame.
+  * <b>Maximum</b>: Helps identify peak usage moments, which may indicate high traffic loads.
+  * <b>Minimum</b>: Minimum number of IP addresses in use during the time period.
+* <b>Period</b>: Default value is 3600 second.
+  * <b>Recommended values based on monitoring needs:
+    * <b>300 seconds</b> for real-time monitoring
+    * <b>3600 seconds</b> for broader trend analysis over longer durations
+
+# Use Cases Example <a name="example"></a>
+## Use Case 1: Capacity Management <a name="example-1"></a>
+
+Monitor IP usage to predict when a subnet may need more addresses, ensuring sufficient capacity for scaling.
+
+## Use Case 2: Cost Control in Multi-Subnet Architectures <a name="example-2"></a>
+Monitor IP address consumption across subnets to manage resources efficiently and prevent overspending.
 
 
-# Introduction <a name="introduction"></a>
-Network Address Usage metrics in AWS are used to monitor and track the usage of IP addresses within your Virtual Private Cloud (VPC). These metrics help you understand how many IP addresses are in use and can assist in managing IP address space efficiently.
-
-
-
-This API is integrated into the AWS VPC Router in Netbrain.It corresponds with the `get_metric_data` function of the CloudWatch resource in the AWS REST API.
-
-
-
-We use the below parameter value to fetch the relevant metric data.
-
-AWS CloudWatch API Parameters
-|Name|Value|
-|------|------|
-| Metric name | NetworkAddressUsage |
-| Duration* |  |
-| Maximum Data Points* |  |
-| Period* |  |
-| Stat* |  |
-
-
-Duration: Refers to the period over which a particular metric is measured
-
-Maximum Data Points: The maximum number of data points the request should return before paginating
-
-Period: The granularity, in seconds, of the returned data points
-
-Stat: The statistic to return. Sum is the sum of the values of the all data points collected during the period
-
-
-
-For more details about the AWS CloudWatch API, please refer to: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
+# Reference <a name="reference"></a>
+* <b>Metrics Details</b>: https://docs.aws.amazon.com/vpc/latest/userguide/network-address-usage.html
+* <b>AWS CloudWatch Parameters</b>: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
