@@ -7,9 +7,9 @@ In AWS, a subnet is a segmented portion of a Virtual Private Cloud (VPC) network
 
 
 
-The "Describe VPC Subnets" API offers detailed information all of the subntes in the VPC. The API response includes cidr block of subnet, subnet arn and more.
+The <b>Describe VPC Subnets</b> API offers detailed information all of the subntes in the VPC. The API response includes cidr block of subnet, subnet arn and more.
 
-This API is integrated into the AWS VPC Router in NetBrain. It corresponds with thedescribe_subnets function of the AWS REST API, using the vpc-id filter to retrieve specific route table information.
+This API is integrated into the AWS VPC Router in NetBrain. It corresponds with the `describe_subnets` function of the AWS REST API, using the `vpc-id` filter to retrieve specific route table information.
 
 
 

@@ -1,6 +1,6 @@
 # Table of Contents
 - [Overview](#overview)
-- [User-Defined ParametersActiveFlowCount_TCP](#user-defined)
+- [User-Defined Parameters](#user-defined-parameters)
 - [Use Cases Example](#example)
     - [Use Case 1 -- Capacity Management](#example-1) 
     - [Use Case 2 -- Cost Control in Multi-Subnet Architectures](#example-2)
@@ -14,7 +14,7 @@ The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP
 * <b>Unit: Count</b> - This metric is reported as a count of IP addresses used.
 * <b>Display Name in NetBrain</b>: VPC Network Address Usage
 
-# User-Defined ParametersActiveFlowCount_TCP <a name="user-defined"></a>
+# User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
 * <b>Statistics</b>: Default value is Sum
   * <b>Average</b>: Average number of IP addresses in use over a period.

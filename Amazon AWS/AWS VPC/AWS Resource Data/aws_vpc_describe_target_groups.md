@@ -7,11 +7,11 @@ A target group is a logical grouping of EC2 instances or hosts that receive traf
 
 
 
-The "Describe Load Balancer Target Groups" API provides a list of all target groups within the specified region. The API response includes detailed information about each target group and its associated targets.
+The <b>Describe Load Balancer Target Groups<b> API provides a list of all target groups within the specified region. The API response includes detailed information about each target group and its associated targets.
 
 
 
-This API is part of the AWS VPC Router in NetBrain and corresponds to the describe_target_groups function of the AWS REST API.
+This API is part of the AWS VPC Router in NetBrain and corresponds to the `describe_target_groups` function of the AWS REST API.
 
 
 

@@ -7,7 +7,7 @@ Security group acts as a virtual firewall for controlling inbound and outbound t
 
 
 
-The "Describe Security Groups" API offers a detailed information of all security groups within Virtual Private Cloud (VPC). The API response includes inbound and outbound rules of each security group
+The <b>Describe Security Groups</b> API offers a detailed information of all security groups within Virtual Private Cloud (VPC). The API response includes inbound and outbound rules of each security group
 
 This API is integrated into the AWS VPC Router in NetBrain and aligns with the `describe_security_groups` function of the AWS REST API, utilizing the `vpc-id` filter for targeted retrieval of security groups.
 

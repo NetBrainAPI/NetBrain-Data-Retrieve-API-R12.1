@@ -2,7 +2,7 @@
 - [Introduction](#introduction)
 
 # Introduction <a name="introduction"></a>
-An Amazon EBS volume is a durable, block-level storage device that we can attach to ec2instances. The API Describe EBS Volume will provide the list of EBS Volumes you have in the region. This API will provide details of each EBS volume such as attachment information, size, volume type etc.
+An Amazon EBS volume is a durable, block-level storage device that we can attach to ec2instances. The API <b>Describe EBS</b> Volume will provide the list of EBS Volumes you have in the region. This API will provide details of each EBS volume such as attachment information, size, volume type etc.
 
 
 

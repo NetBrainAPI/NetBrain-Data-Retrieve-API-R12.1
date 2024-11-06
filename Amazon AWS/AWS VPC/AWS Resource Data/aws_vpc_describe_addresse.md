@@ -6,7 +6,7 @@ An Elastic IP address is associated with your AWS account. It's a public IP addr
 
 
 
-The "Describe Elastic IP Addresses" API provides a list of Elastic IP addresses in your specified region. The API response includes details such as the public IP, private IP, attached ENI ID, and more.
+The <b>Describe Elastic IP Addresses</b> API provides a list of Elastic IP addresses in your specified region. The API response includes details such as the public IP, private IP, attached ENI ID, and more.
 
 
 

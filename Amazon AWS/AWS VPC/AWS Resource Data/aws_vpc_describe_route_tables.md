@@ -7,9 +7,9 @@ A VPC route table in AWS is like a map that tells network traffic where to go wi
 
 
 
-The "Describe VPC Route Table" API offers detailed information all of the route table attached to the VPC. The API response includes attachment details, details of route propagation, list of routes and more.
+The <b>Describe VPC Route Table</b> API offers detailed information all of the route table attached to the VPC. The API response includes attachment details, details of route propagation, list of routes and more.
 
-This API is integrated into the AWS VPC Router in NetBrain. It corresponds with the describe_route_tables function of the AWS REST API, using the vpc-id filter to retrieve specific route table information.
+This API is integrated into the AWS VPC Router in NetBrain. It corresponds with the `describe_route_tables` function of the AWS REST API, using the `vpc-id` filter to retrieve specific route table information.
 
 
 

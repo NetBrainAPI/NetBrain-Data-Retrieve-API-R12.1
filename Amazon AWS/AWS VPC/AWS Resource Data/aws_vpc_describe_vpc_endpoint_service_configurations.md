@@ -7,7 +7,7 @@ A VPC (Virtual Private Cloud) Endpoint Service Configuration in AWS enables you 
 
 
 
-The "Describe VPC Endpoint Service Configuration" API offers detailed information of VPC endpoint service configurations. The API response includes service status, load balancer arn etc.
+The <b>Describe VPC Endpoint Service Configuration</b> API offers detailed information of VPC endpoint service configurations. The API response includes service status, load balancer arn etc.
 
 This API is integrated into the AWS VPC Router in NetBrain and aligns with the `describe_vpc_endpoint_service_configurations` function of the AWS REST API.
 

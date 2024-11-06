@@ -6,11 +6,11 @@ In AWS, Network Access Control Lists (Network ACLs or NACLs) are a security laye
 
 
 
-The "Describe Network ACLs" API provides a list of all Network ACLs within a VPC. The API response includes the inbound and outbound rules for each Network ACL in the VPC.
+The <b>Describe Network ACLs</b> API provides a list of all Network ACLs within a VPC. The API response includes the inbound and outbound rules for each Network ACL in the VPC.
 
 
 
-This API is part of the AWS VPC Router in NetBrain and utilizes the describe_network_acls function of the AWS REST API with the vpc-id filter to fetch information from AWS.
+This API is part of the AWS VPC Router in NetBrain and utilizes the `describe_network_acls` function of the AWS REST API with the `vpc-id` filter to fetch information from AWS.
 
 
 
