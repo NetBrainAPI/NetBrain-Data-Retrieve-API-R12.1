@@ -7,7 +7,7 @@ A target group is a logical grouping of EC2 instances or hosts that receive traf
 
 
 
-The <b>Describe Load Balancer Target Groups<b> API provides a list of all target groups within the specified region. The API response includes detailed information about each target group and its associated targets.
+The <b>Describe Load Balancer Target Groups</b> API provides a list of all target groups within the specified region. The API response includes detailed information about each target group and its associated targets.
 
 
 
