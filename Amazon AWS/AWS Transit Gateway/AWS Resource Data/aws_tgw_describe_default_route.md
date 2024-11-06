@@ -9,7 +9,7 @@ In AWS, a Transit Gateway default route table is the primary routing table assoc
 
 The "Describe TGW Default Route Table" API retrieves information about the default route table of the transit gateway from which the API is called. The API response includes cidr prefix entry of the route table.
 
-This API is integrated into the AWS Transit Gateway device in NetBrain. It corresponds with the describe_transit_gateway_route_tables function of the AWS REST API, using the transit-gateway-id filter to retrieve specific transit gateway route table information.
+This API is integrated into the AWS Transit Gateway device in NetBrain. It corresponds with the `describe_transit_gateway_route_tables` function of the AWS REST API, using the `transit-gateway-id` filter to retrieve specific transit gateway route table information.
 
 
 

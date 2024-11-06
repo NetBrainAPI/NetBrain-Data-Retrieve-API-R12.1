@@ -9,7 +9,7 @@ A Transit Gateway route table in AWS is a resource that controls how traffic is 
 
 The "Describe TGW Route Table" API retrieves information about the route tables of the transit gateway from which the API is called. The API response includes cidr prefix entry of each route table.
 
-This API is integrated into the AWS Transit Gateway device in NetBrain. It corresponds with the describe_transit_gateway_route_tables function of the AWS REST API, using the transit-gateway-id filter to retrieve specific transit gateway route table information.
+This API is integrated into the AWS Transit Gateway device in NetBrain. It corresponds with the `describe_transit_gateway_route_tables` function of the AWS REST API, using the `transit-gateway-id` filter to retrieve specific transit gateway route table information.
 
 
 
