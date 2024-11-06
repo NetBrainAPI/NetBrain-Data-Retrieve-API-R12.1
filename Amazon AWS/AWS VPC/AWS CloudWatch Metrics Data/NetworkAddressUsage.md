@@ -1,5 +1,6 @@
 # Table of Contents
 - [Overview](#overview)
+- [Metric Info](#metric-info)
 - [User-Defined Parameters](#user-defined-parameters)
 - [Use Cases Example](#example)
     - [Use Case 1 -- Capacity Management](#example-1) 
@@ -9,6 +10,7 @@
 # Overview <a name="overview"></a>
 The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP addresses currently in use within a specific subnet in an Amazon Virtual Private Cloud (VPC). Monitoring this metric helps manage IP address allocation within subnets to prevent address exhaustion.
 
+# Metric Info <a name="metric-info"></a>
 * <b>Metric Name</b>: NetworkAddressUsage
 * <b>Namespace</b>: AWS/EC2
 * <b>Unit: Count</b> - This metric is reported as a count of IP addresses used.
