@@ -27,14 +27,12 @@ The <b>VirtualInterfacePpsIngress</b> metric for AWS Direct Connect (DX) tracks 
   * <b>Maximum</b>: Captures peak ingress packet rates, potentially indicating high traffic periods.
 * <b>Period</b>: Default value is 300 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Identifying Network Congestion <a name="example-1"></a>
 Use this metric to detect unusual packet rates that could indicate network congestion or an overload on the Direct Connect link, allowing for proactive adjustments.
-
-
 
 ## Use Case 2: Analyzing Data Flow Patterns <a name="example-2"></a>
 Analyze ingress traffic patterns to identify trends in data flows, helping with capacity planning or detecting unexpected surges in traffic that might need to be addressed.

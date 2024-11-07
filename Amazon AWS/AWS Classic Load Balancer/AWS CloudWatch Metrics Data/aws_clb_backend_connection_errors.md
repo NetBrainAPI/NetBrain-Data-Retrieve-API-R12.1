@@ -25,8 +25,8 @@ The <b>BackendConnectionErrors</b> metric tracks the number of connection errors
   * <b>Maximum</b>: Highlights peak error occurrences, helping to pinpoint times of degraded backend connectivity.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time error monitoring
-    * <b>3600 seconds</b> for broader trend analysis over longer durations
+    * <b>300 seconds</b> for real-time error monitoring.
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Monitoring Backend Health <a name="example-1"></a>

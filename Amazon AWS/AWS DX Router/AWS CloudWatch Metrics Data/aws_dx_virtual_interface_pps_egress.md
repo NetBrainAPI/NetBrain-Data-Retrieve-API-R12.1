@@ -26,7 +26,7 @@ The <b>VirtualInterfacePpsEgress</b> metric for AWS Direct Connect (DX) tracks t
   * <b>Maximum</b>: Captures peak packet rates, potentially indicating moments of high outbound traffic.
 * <b>Period</b>: Default value is 300 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>

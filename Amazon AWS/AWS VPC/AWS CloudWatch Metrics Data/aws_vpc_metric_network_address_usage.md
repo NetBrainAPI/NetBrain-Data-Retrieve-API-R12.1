@@ -25,8 +25,8 @@ The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP
   * <b>Maximum</b>: Helps identify peak usage moments, which may indicate high traffic loads.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
-    * <b>3600 seconds</b> for broader trend analysis over longer durations
+    * <b>300 seconds</b> for real-time monitoring.
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Capacity Management <a name="example-1"></a>

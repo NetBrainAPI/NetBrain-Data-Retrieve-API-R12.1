@@ -27,15 +27,12 @@ The <b>HTTPCode_Backend_2XX</b> metric tracks the number of successful HTTP resp
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring to quickly assess application performance.
-    * <b>3600 seconds</b> for broader trend analysis over longer durations
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Performance Monitoring <a name="example-1"></a>
 
 Track the HTTPCode_Backend_2XX metric to ensure that backend instances are handling requests successfully, providing insights into application performance.
-
-
-
 
 ## Use Case 2: Troubleshooting Application Issues <a name="example-2"></a>
 Monitor for unexpected drops in 2XX responses to identify potential issues with backend instances, allowing for timely intervention to restore service quality.

@@ -27,7 +27,7 @@ The <b>VirtualInterfaceBpsEgress</b> metric for AWS Direct Connect (DX) tracks t
   * <b>Maximum</b>: Captures peak bandwidth usage, potentially indicating high traffic periods.
 * <b>Period</b>: Default value is 300 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>

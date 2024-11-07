@@ -26,7 +26,7 @@ The <b>HealthyHostCount</b> metric tracks the number of backend instances (hosts
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring to quickly assess the availability of healthy instances.
-    * <b>3600 seconds</b> for broader trend analysis over longer durations
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Capacity Management <a name="example-1"></a>

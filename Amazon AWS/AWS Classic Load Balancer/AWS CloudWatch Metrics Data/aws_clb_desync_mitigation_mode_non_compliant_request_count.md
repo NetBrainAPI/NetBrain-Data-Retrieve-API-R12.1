@@ -27,7 +27,7 @@ The <b>DesyncMitigationMode_NonCompliant_Request_Count</b> metric tracks the num
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring to quickly detect increases in non-compliant requests.
-    * <b>3600 seconds</b> for broader trend analysis over longer durations
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Security Vulnerability Detection <a name="example-1"></a>
