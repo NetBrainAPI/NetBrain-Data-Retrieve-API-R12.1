@@ -7,9 +7,9 @@ In AWS, a Direct Connect Virtual Interface (VIF) is a logical connection that en
 
 
 
-The "Describe Direct Connect Virtual Interface" API in AWS Direct Connect is used to retrieve information about one or more virtual interfaces. This API can return details about both private and public virtual interfaces, providing insights into their configurations and statuses. The API response includes vlan, bgp asn, bgp neighbour state etc.
+The <b>Describe Direct Connect Virtual Interface</b> API in AWS Direct Connect is used to retrieve information about one or more virtual interfaces. This API can return details about both private and public virtual interfaces, providing insights into their configurations and statuses. The API response includes vlan, bgp asn, bgp neighbour state etc.
 
-This API is integrated into the AWS DX router in NetBrain. It corresponds with the describe_virtual_interfaces function of the AWS REST API.
+This API is integrated into the AWS DX router in NetBrain. It corresponds with the `describe_virtual_interfaces` function of the AWS REST API.
 
 
 
