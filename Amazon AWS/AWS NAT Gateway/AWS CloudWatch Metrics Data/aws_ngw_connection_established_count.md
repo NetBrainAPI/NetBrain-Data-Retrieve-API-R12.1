@@ -19,7 +19,7 @@ The <b>ConnectionEstablishedCount</b> metric tracks the total number of successf
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for observing trends in successfully established connections over time.
   * <b>Sum</b>: Shows the total number of successfully established connections within the specified period.
   * <b>Minimum</b>: Indicates the lowest count of successful connections recorded, revealing times of low network activity.

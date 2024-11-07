@@ -20,7 +20,7 @@ The <b>PacketsIn</b> metric for Transit Gateway Attachments measures the total n
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for observing general trends in packet reception over time.
   * <b>Sum</b>: Shows the total count of inbound packets received through the attachment within the specified period.
   * <b>Minimum</b>: Indicates the lowest count of packets, which can help identify low-traffic periods.

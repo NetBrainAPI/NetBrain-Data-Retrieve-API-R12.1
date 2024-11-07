@@ -18,7 +18,7 @@ The <b>PeakPacketsPerSecond</b> metric measures the highest number of packets pr
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Maximum
+* <b>Statistics</b>: Default value is Maximum.
   * <b>Average</b>: Useful for observing general packet flow trends over time.
   * <b>Sum</b>: Displays the total number of packets processed over the specified period.
   * <b>Minimum</b>: Indicates the lowest packet rate, helping to identify periods of low activity.

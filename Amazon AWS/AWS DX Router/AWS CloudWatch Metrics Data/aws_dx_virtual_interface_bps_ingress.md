@@ -19,7 +19,7 @@ The <b>VirtualInterfaceBpsIngress</b> metric for AWS Direct Connect (DX) tracks 
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points, useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: Default value is Average
+* <b>Statistics</b>: Default value is Average.
   * <b>Average</b>: Displays the average ingress throughput over the selected period.
   * <b>Sum</b>: Provides the total ingress throughput during the selected time.
   * <b>Minimum</b>: Identifies periods of minimal ingress bandwidth usage.

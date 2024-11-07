@@ -18,7 +18,7 @@ The <b>TunnelState</b> metric monitors the operational status of VPN tunnels ass
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Maximum
+* <b>Statistics</b>: Default value is Maximum.
   * <b>Average</b>: Useful for observing the general state of the VPN tunnels over time.
   * <b>Sum</b>: Shows the total number of tunnels in a specific state over the specified period.
   * <b>Minimum</b>: Indicates the lowest recorded state count, useful for understanding periods of low activity.

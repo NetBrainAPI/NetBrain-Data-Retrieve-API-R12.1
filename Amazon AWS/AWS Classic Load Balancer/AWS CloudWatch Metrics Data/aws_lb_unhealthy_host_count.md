@@ -18,7 +18,7 @@ The <b>UnHealthy Host Count</b> metric tracks the number of backend instances (h
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Maximum
+* <b>Statistics</b>: Default value is Maximum.
   * <b>Average</b>: Useful for observing trends in the number of unhealthy hosts over time.
   * <b>Sum</b>: Shows the total count of unhealthy hosts over the specified period, though this is less commonly used for this metric.
   * <b>Minimum</b>: Indicates the lowest number of unhealthy hosts recorded, revealing times with optimal health.

@@ -18,7 +18,7 @@ The <b>NetworkAddressUsage</b>  metric in AWS CloudWatch tracks the number of IP
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Average number of IP addresses in use over a period.
   * <b>Sum</b>: Total number of IP addresses used within a specific time frame.
   * <b>Minimum</b>: Minimum number of IP addresses in use during the time period.

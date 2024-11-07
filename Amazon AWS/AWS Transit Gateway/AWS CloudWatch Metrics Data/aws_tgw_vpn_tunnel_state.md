@@ -25,7 +25,7 @@ The <b>TunnelState</b> metric for Transit Gateway VPNs tracks the current state 
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points, useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: Default value is Maximum
+* <b>Statistics</b>: Default value is Maximum.
   * <b>Minimum</b>: Useful for checking the lowest state value within a period (e.g., 0 if the tunnel was down).
   * <b>Maximum</b>: Identifies if the tunnel remained up during the specified period.
 * <b>Period</b>: Default value is 300 second.

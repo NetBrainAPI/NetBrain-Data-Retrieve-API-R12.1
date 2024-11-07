@@ -20,7 +20,7 @@ The <b>VirtualInterfaceBpsEgress</b> metric for AWS Direct Connect (DX) tracks t
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points, useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: Default value is Average
+* <b>Statistics</b>: Default value is Average.
   * <b>Average</b>: Shows the average egress throughput over the selected period.
   * <b>Sum</b>: Provides the total egress throughput over the specified time.
   * <b>Minimum</b>: Identifies periods of minimal egress bandwidth usage.

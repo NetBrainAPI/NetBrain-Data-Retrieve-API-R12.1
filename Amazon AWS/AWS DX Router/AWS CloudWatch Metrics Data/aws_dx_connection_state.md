@@ -19,7 +19,7 @@ The <b>ConnectionState</b> metric for AWS Direct Connect (DX) monitors the state
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points, useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: Default value is Average
+* <b>Statistics</b>: Default value is Average.
   * <b>Average</b>: Returns the average connection state (active or inactive) for the selected period.
   * <b>Sum</b>: Provides the total count of connection state transitions during the selected period (active vs. inactive).
   * <b>Minimum</b>: Identifies periods of inactivity, providing insights into downtime or connection issues.

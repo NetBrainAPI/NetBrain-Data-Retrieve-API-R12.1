@@ -19,7 +19,7 @@ The <b>HTTPCode_Backend_4XX</b> metric tracks the number of 4XX HTTP responses f
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for observing general trends in client-side error rates over time.
   * <b>Sum</b>: Shows the total count of 4XX responses from backend instances within the specified period.
   * <b>Minimum</b>: Indicates the lowest number of 4XX responses, revealing times with minimal client-side errors.

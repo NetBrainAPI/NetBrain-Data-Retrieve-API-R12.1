@@ -20,7 +20,7 @@ The <b>PacketsIn</b> metric tracks the total volume of inbound data processed by
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for observing general trends in inbound data over time.
   * <b>Sum</b>: Shows the total volume of data received within the specified period.
   * <b>Minimum</b>: Indicates the lowest recorded volume of inbound data, useful for identifying low-traffic periods.

@@ -20,7 +20,7 @@ The <b>PacketDropCountBlackhole</b> metric for Transit Gateway Attachments track
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for identifying trends in blackholed packet drops over time.
   * <b>Sum</b>: Shows the total count of blackholed packets within the specified period.
   * <b>Minimum</b>: Indicates the lowest packet drop count, useful for identifying low-error periods.

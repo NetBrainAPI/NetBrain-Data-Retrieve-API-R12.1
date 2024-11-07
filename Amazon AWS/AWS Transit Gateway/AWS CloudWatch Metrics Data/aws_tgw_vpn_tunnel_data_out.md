@@ -24,7 +24,7 @@ The <b>TunnelDataOut</b> metric for Transit Gateway VPNs measures the amount of 
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points, useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for tracking the average data outflow over a period.
   * <b>Sum</b>: Shows the total amount of outbound data within the defined time range.
   * <b>Minimum</b>: Indicates the lowest outbound data volume during the period.

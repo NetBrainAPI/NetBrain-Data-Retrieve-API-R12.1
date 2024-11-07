@@ -18,7 +18,7 @@ The <b>PacketDropCountNoRoute</b> metric tracks the total number of packets drop
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for observing trends in dropped packets due to missing routes over time.
   * <b>Sum</b>: Shows the total number of packets dropped within the specified period due to routing issues.
   * <b>Minimum</b>: Indicates the lowest count of dropped packets, helpful for identifying low-drop periods.

@@ -18,7 +18,7 @@ The <b>HealthyHostCount</b> metric tracks the number of backend instances (hosts
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Average
+* <b>Statistics</b>: Default value is Average.
   * <b>Average</b>: Useful for observing trends in the number of healthy hosts over time.
   * <b>Sum</b>: Shows the total count of healthy hosts over the specified period.
   * <b>Minimum</b>: Indicates the lowest number of healthy hosts recorded, revealing times with optimal performance.

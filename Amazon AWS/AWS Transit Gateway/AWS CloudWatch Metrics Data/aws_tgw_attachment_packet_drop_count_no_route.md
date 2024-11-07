@@ -19,7 +19,7 @@ The <b>PacketDropCountNoRoute</b> metric for Transit Gateway Attachments measure
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Sum
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: Useful for identifying trends in packets dropped due to no-route conditions.
   * <b>Sum</b>: Shows the total count of dropped packets due to missing routes within the specified period.
   * <b>Minimum</b>: Indicates the lowest packet drop count, useful for identifying minimal drop intervals.

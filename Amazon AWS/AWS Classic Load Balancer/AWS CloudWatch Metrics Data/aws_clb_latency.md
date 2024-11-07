@@ -20,7 +20,7 @@ The <b>Latency</b> metric measures the time taken for a request to be processed 
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Statistics</b>: Default value is Average
+* <b>Statistics</b>: Default value is Average.
   * <b>Average</b>: Useful for observing general latency trends over time.
   * <b>Sum</b>: Shows the total latency accumulated over the specified period, but is less commonly used for latency.
   * <b>Minimum</b>: Indicates the shortest response time recorded, revealing optimal performance instances.
