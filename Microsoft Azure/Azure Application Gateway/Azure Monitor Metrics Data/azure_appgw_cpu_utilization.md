@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>CpuUtilization metric</b> data from Azure API Server (https://management.azure.com/). The metric is about current CPU utilization of the Application Gateway.
+The API is used to retrieve Azure Application Gateway <b>CpuUtilization metric</b> data from Azure API Server (https://management.azure.com/). The metric is about current CPU utilization of the Application Gateway.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

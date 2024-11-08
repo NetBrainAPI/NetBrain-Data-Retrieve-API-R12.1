@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve <b>Azure Firewall CapacityUnits</b> metric data from Azure API Server (https://management.azure.com/). The metric is about capacity Units consumed.
+The API is used to retrieve <b>Azure Application Gateway CapacityUnits</b> metric data from Azure API Server (https://management.azure.com/). The metric is about capacity Units consumed.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

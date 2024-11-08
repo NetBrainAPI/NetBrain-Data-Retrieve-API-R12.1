@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>BackendConnectTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time spent establishing a connection with a backend server.
+The API is used to retrieve Azure Application Gateway <b>BackendConnectTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time spent establishing a connection with a backend server.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

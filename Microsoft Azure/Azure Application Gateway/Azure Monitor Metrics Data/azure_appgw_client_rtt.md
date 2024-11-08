@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>ClientRtt</b> metric data from Azure API Server (https://management.azure.com/). The metric is about round trip time between clients and Application Gateway.
+The API is used to retrieve Azure Application Gateway <b>ClientRtt</b> metric data from Azure API Server (https://management.azure.com/). The metric is about round trip time between clients and Application Gateway.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

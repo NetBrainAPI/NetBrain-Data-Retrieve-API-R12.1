@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>MatchedCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is about Web application firewall total Rule distribution for the incoming traffic.
+The API is used to retrieve Azure Application Gateway <b>MatchedCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is about Web application firewall total Rule distribution for the incoming traffic.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

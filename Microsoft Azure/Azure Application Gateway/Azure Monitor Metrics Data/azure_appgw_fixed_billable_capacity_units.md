@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>FixedBillableCapacityUnits</b> metric data from Azure API Server (https://management.azure.com/). The metric is about minimum capacity units that will be charged.
+The API is used to retrieve Azure Application Gateway <b>FixedBillableCapacityUnits</b> metric data from Azure API Server (https://management.azure.com/). The metric is about minimum capacity units that will be charged.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

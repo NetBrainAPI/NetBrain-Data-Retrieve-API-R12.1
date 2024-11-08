@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>BackendFirstByteResponseTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time interval between start of establishing a connection to backend server and receiving the first byte of the response header, approximating processing time of backend server.
+The API is used to retrieve Azure Application Gateway <b>BackendFirstByteResponseTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time interval between start of establishing a connection to backend server and receiving the first byte of the response header, approximating processing time of backend server.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

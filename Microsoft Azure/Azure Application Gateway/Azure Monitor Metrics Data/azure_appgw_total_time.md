@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>ApplicationGatewayTotalTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time that it takes for a request to be processed and its response to be sent.
+The API is used to retrieve Azure Application Gateway <b>ApplicationGatewayTotalTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time that it takes for a request to be processed and its response to be sent.
 
 
 # Metric Info <a name="metric-info"></a>

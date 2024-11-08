@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>TotalRequests</b> metric data from Azure API Server (https://management.azure.com/). The metric is about count of successful requests that Application Gateway has served.
+The API is used to retrieve Azure Application Gateway <b>TotalRequests</b> metric data from Azure API Server (https://management.azure.com/). The metric is about count of successful requests that Application Gateway has served.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

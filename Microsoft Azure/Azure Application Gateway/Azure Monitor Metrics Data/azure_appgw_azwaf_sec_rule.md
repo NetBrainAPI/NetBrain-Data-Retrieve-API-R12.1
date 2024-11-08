@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve <b>Azure Firewall AzwafSecRule</b> metric data from Azure API Server (https://management.azure.com/). The metric is about matched Managed Rules.
+The API is used to retrieve <b>Azure Application Gateway AzwafSecRule</b> metric data from Azure API Server (https://management.azure.com/). The metric is about matched Managed Rules.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

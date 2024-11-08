@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>BlockedCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is about Web Application Firewall blocked requests rule distribution.
+The API is used to retrieve Azure Application Gateway <b>BlockedCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is about Web Application Firewall blocked requests rule distribution.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>BytesSent</b> metric data from Azure API Server (https://management.azure.com/). The metric is about the total number of bytes sent by the Application Gateway to the clients.
+The API is used to retrieve Azure Application Gateway <b>BytesSent</b> metric data from Azure API Server (https://management.azure.com/). The metric is about the total number of bytes sent by the Application Gateway to the clients.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Firewall <b>AzwafTotalRequests</b> metric data from Azure API Server (https://management.azure.com/). The metric is about total number of requests evaluated by WAF.
+The API is used to retrieve Azure Application Gateway <b>AzwafTotalRequests</b> metric data from Azure API Server (https://management.azure.com/). The metric is about total number of requests evaluated by WAF.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
