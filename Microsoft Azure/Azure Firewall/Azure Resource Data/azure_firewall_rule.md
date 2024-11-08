@@ -7,7 +7,7 @@
 
 
 # Introduction <a name="introduction"></a>
-Passing-in the keyword "firewall_rule" for the param data_type, the API returns the NAT rules, network rules, and applications rules of the Azure Firewall.
+Passing-in the keyword "firewall_rule" for the param `data_type`, the API returns the NAT rules, network rules, and applications rules of the Azure Firewall.
 There are two types of firewall rules -- classic rules and firewall policy (ref: https://learn.microsoft.com/en-us/azure/firewall/rule-processing).
 The classic firewall rules can be found directly in the firewall's Azure API data. The other type of firewall rule can be fetched via firewall policy and its base policy's Azure API data.
 
@@ -17,8 +17,8 @@ Below are the Azure APIs used to generate this configuration.
 
 |**Resource/Action**|**Relationship**|**Azure API Version**|**Azure API document**|
 |------|------|------|------|
-| Azure Firewalls - Get | self | 2021-09-01 | https://learn.microsoft.com/en-us/rest/api/firewall/azure-firewalls/get | 
-| Firewall Policies - Get | self | 2021-09-01 |   https://learn.microsoft.com/en-us/rest/api/virtualnetwork/firewall-policies/get | 
+| Azure Firewalls - Get | self | 2022-09-01 | https://learn.microsoft.com/en-us/rest/api/firewall/azure-firewalls/get | 
+| Firewall Policies - Get | self | 2022-09-01 |   https://learn.microsoft.com/en-us/rest/api/virtualnetwork/firewall-policies/get | 
 
 # Samples <a name="sample"></a>
 ## Sample 1 -- Classic Firewall Rules <a name="sample-1"></a>
