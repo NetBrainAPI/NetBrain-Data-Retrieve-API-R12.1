@@ -1,18 +1,42 @@
 # Table of Contents
-- [Introduction](#introduction)
+- [Overview](#overview)
+- [Metric Info](#metric-info)
+- [User-Defined Parameters](#user-defined-parameters)
+- [Use Cases Example](#example)
+    - [Use Case 1 -- Detect Network Issues](#example-1) 
+    - [Use Case 2 -- Prevent Service Disruptions](#example-2)
+- [Reference](#reference)
+
+# Overview <a name="overview"></a>
+The <b>UnHealthyHostCount</b> is a metric that tracks the number of unhealthy targets associated with a Gateway Load Balancer (GWLB). This metric helps identify issues with target group health or network connectivity.
+
+# Metric Info <a name="metric-info"></a>
+* <b>Metric Name</b>: UnHealthyHostCount
+* <b>Namespace</b>: AWS/GatewayELB
+* <b>Unit</b>: Count
+* <b>Display Name in NetBrain</b>: UnHealthy Host Count
+
+# User-Defined Parameters <a name="user-defined-parameters"></a>
+* <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
+* <b>Statistics</b>: Default value is Maximum.
+  * <b>Average</b>: The average number of unhealthy targets in a Gateway Load Balancer (GWLB) target group.
+  * <b>Sum</b>: The sum of the number of unhealthy targets in a Gateway Load Balancer (GWLB) target group.
+  * <b>Minimum</b>: Minimum of the number of unhealthy targets in a Gateway Load Balancer (GWLB) target group.
+  * <b>Maximum</b>: Maximum of the number of unhealthy targets in a Gateway Load Balancer (GWLB) target group.
+* <b>Period</b>: Default value is 3600 second.
+  * <b>Recommended Values</b>:
+    * <b>300 seconds</b> for real-time monitoring
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
+
+# Use Cases Example <a name="example"></a>
+## Use Case 1: Detect Network Issues <a name="example-1"></a>
+Sudden spikes in UnHealthyHostCount can indicate network connectivity issues between the GWLB and its target groups.
 
 
-# Introduction <a name="introduction"></a>
-The "Unhealthy Host Count" metric in AWS refers to the number of unhealthy hosts, also known as targets, registered with your Elastic Load Balancer (ELB). This metric is essential for monitoring the health and availability of your backend resources and identifying potential issues that may affect the overall performance of your application.
-
-The API response contains the number of targets that the load balancer has deemed unhealthy based on the health checks configured for your load balancer.
+## Use Case 2: Prevent Service Disruptions <a name="example-2"></a>
+By proactively addressing unhealthy targets, you can help prevent service disruptions and maintain high availability.
 
 
-
-This API is integrated into the AWS Gateway Loadbalancer in NetBrain. It corresponds with the `get_metric_data` function of the CloudWatch resource in the AWS REST API.
-
-
-
-For more details about the AWS CloudWatch API, please refer to the following document: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
-
-For more details about the UnHealthyHostCount metric, please refer to the following document: https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/cloudwatch-metrics.html#:~:text=AvailabilityZone%2C%20LoadBalancer-,UnHealthyHostCount,-The%20number%20of
+# Reference <a name="reference"></a>
+* <b>Metrics Details</b>: https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/cloudwatch-metrics.html
+* <b>AWS CloudWatch Parameters</b>: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
