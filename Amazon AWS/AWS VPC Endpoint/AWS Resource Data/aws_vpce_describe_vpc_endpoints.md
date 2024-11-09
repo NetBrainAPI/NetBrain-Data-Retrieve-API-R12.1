@@ -9,7 +9,7 @@ A VPC (Virtual Private Cloud) endpoint in AWS is a network component that allows
 
 The "Describe VPC Endpoints" API provides detailed information about specific VPC endpoints. The API response includes details of ENI attached to VPC endpoint, endpoint status, VPC endpoint service details and more.
 
-This API is integrated into the AWS VPC Endpoint device in NetBrain and aligns with the describe_vpc_endpoints function of the AWS REST API, using the vpc-endpoint-id filter to retrieve specific endpoint information.
+This API is integrated into the AWS VPC Endpoint device in NetBrain and aligns with the `describe_vpc_endpoints` function of the AWS REST API, using the `vpc-endpoint-id` filter to retrieve specific endpoint information.
 
 
 
