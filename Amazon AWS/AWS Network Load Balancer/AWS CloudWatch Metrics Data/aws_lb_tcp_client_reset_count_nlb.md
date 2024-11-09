@@ -1,20 +1,40 @@
 # Table of Contents
-- [Introduction](#introduction)
+- [Overview](#overview)
+- [Metric Info](#metric-info)
+- [User-Defined Parameters](#user-defined-parameters)
+- [Use Cases Example](#example)
+    - [Use Case 1 -- Identify Application Errors](#example-1) 
+    - [Use Case 2 -- Security Incident Detection](#example-2)
+- [Reference](#reference)
 
+# Overview <a name="overview"></a>
+The <b>TCP_Client_Reset_Count</b> is a metric that tracks the number of TCP reset packets received by a Network Load Balancer (NLB). This metric helps identify network connectivity issues, application errors, or security problems.
 
-# Introduction <a name="introduction"></a>
-The "TCP_ELB_Reset_Count" metric for Network Load Balancers (NLB) in AWS measures the number of times the load balancer resets TCP connections. This metric is crucial for understanding the behavior of TCP connections handled by the NLB and diagnosing potential issues affecting network reliability and performance.
+# Metric Info <a name="metric-info"></a>
+* <b>Metric Name</b>: TCP_Client_Reset_Count
+* <b>Namespace</b>: AWS/NetworkELB
+* <b>Unit</b>: Count
+* <b>Display Name in NetBrain</b>: TCP Client Reset Count
 
+# User-Defined Parameters <a name="user-defined-parameters"></a>
+* <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
+* <b>Statistics</b>: Default value is Sum.
+  * <b>Average</b>: The average number of TCP reset packets received by a Network Load Balancer.
+  * <b>Sum</b>: The sum of the number of TCP reset packets received by a Network Load Balancer.
+  * <b>Minimum</b>: Minimum of the number of TCP reset packets received by a Network Load Balancer.
+  * <b>Maximum</b>: Maximum of the number of TCP reset packets received by a Network Load Balancer.
+* <b>Period</b>: Default value is 3600 second.
+  * <b>Recommended Values</b>:
+    * <b>300 seconds</b> for real-time monitoring.
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
+# Use Cases Example <a name="example"></a>
+## Use Case 1: Identify Application Errors <a name="example-1"></a>
+TCP reset packets can be caused by application errors, such as unexpected exceptions or timeouts. By monitoring this metric, you can identify and address these issues.
 
-The API response contains the count of TCP connection resets performed by the NLB.
+## Use Case 2: Security Incident Detection <a name="example-2"></a>
+In some cases, high TCP reset counts can indicate malicious activity, such as DDoS attacks or port scanning.
 
-This API is integrated into the AWS Network Loadbalancer in NetBrain. It corresponds with the `get_metric_data` function of the CloudWatch resource in the AWS REST API.
-
-
-
-
-
-For more details about the AWS CloudWatch API, please refer to the following document: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
-
-For more details about the TCP_ELB_Reset_Count metric, please refer to the following document: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-cloudwatch-metrics.html#:~:text=AvailabilityZone%2C%20LoadBalancer-,TCP_ELB_Reset_Count,-The%20total%20number
+# Reference <a name="reference"></a>
+* <b>Metrics Details</b>: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-cloudwatch-metrics.html
+* <b>AWS CloudWatch Parameters</b>: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html

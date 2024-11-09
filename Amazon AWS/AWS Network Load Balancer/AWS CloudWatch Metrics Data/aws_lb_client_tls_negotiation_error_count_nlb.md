@@ -1,39 +1,40 @@
 # Table of Contents
-- [Introduction](#introduction)
+- [Overview](#overview)
+- [Metric Info](#metric-info)
+- [User-Defined Parameters](#user-defined-parameters)
+- [Use Cases Example](#example)
+    - [Use Case 1 -- Security Incident Detection](#example-1) 
+    - [Use Case 2 -- Client Compatibility Issues](#example-2)
+- [Reference](#reference)
 
+# Overview <a name="overview"></a>
+The <b>ClientTLSNegotiationErrorCount</b> is a metric that tracks the number of TLS negotiation errors encountered by an Network Load Balancer (NLB). By monitoring this metric, you can identify and troubleshoot issues related to client TLS connections, such as certificate misconfigurations or outdated client software.
 
-# Introduction <a name="introduction"></a>
-The "Client TLS Negotiation Error Count" metric in AWS provides insights into the number of TLS negotiation errors encountered by client applications accessing your AWS resources over TLS (Transport Layer Security). This metric is associated with AWS Network Load Balancers (ALB) when terminating TLS connections.
+# Metric Info <a name="metric-info"></a>
+* <b>Metric Name</b>: ClientTLSNegotiationErrorCount
+* <b>Namespace</b>: AWS/NetworkELB
+* <b>Unit</b>: Count
+* <b>Display Name in NetBrain</b>: Client TLS Negotiation Error Count
 
-The API response contains the number of TLS connections initiated by the client that did not establish a session with the load balancer due to a TLS error. Possible causes include a mismatch of ciphers or protocols or the client failing to verify the server certificate and closing the connection.
+# User-Defined Parameters <a name="user-defined-parameters"></a>
+* <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
+* <b>Statistics</b>: Default value is Sum.
+  * <b>Average</b>: The average number of TLS negotiation errors encountered by an Network Load Balancer.
+  * <b>Sum</b>: The sum of the number of TLS negotiation errors encountered by an Network Load Balancer.
+  * <b>Minimum</b>: Minimum of the number of TLS negotiation errors encountered by an Network Load Balancer.
+  * <b>Maximum</b>: Maximum of the number of TLS negotiation errors encountered by an Network Load Balancer.
+* <b>Period</b>: Default value is 3600 second.
+  * <b>Recommended Values</b>:
+    * <b>300 seconds</b> for real-time monitoring.
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
+# Use Cases Example <a name="example"></a>
+## Use Case 1: Security Incident Detection <a name="example-1"></a>
+A sudden spike in this metric could indicate a potential security attack, such as a denial-of-service attack or a man-in-the-middle attack. By monitoring this metric, one can quickly identify and respond to such threats.
 
+## Use Case 2: Client Compatibility Issues <a name="example-2"></a>
+When making changes to SSL/TLS certificates or configurations, an increase in TLS negotiation errors will occur. By monitoring this metric, one can identify and address any compatibility issues with clients.
 
-This API is integrated into the AWS Network Loadbalancer in Netbrain. It corresponds with the `get_metric_data` function of the CloudWatch resource in the AWS REST API.
-
-
-
-We use the below parameter value to fetch the relevant metric data.
-
-
-# Content <a name="content"></a>
-|**Name**|**Value**|
-|------|------|
-| Metric Name | ClientTLSNegotiationErrorCount |
-| Duration* | last 24 hours |
-| Maximum Data Points* | 30 |
-| Period* | 3600 |
-| Stat* | Sum |
-
-Duration: Refers to the period over which a particular metric is measured
-
-Maximum Data Points: The maximum number of data points the request should return before paginating
-
-Period: The granularity, in seconds, of the returned data points
-
-Stat: The statistic to return. <b>Sum</b> is the sum of the values of the all data points collected during the period
-
-
-For more details about the AWS CloudWatch API, please refer to the following document: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
-
-For more details about the ClientTLSNegotiationErrorCount metric, please refer to the following document: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html#load-balancer-metric-table:~:text=ClientTLSNegotiationErrorCount
+# Reference <a name="reference"></a>
+* <b>Metrics Details</b>: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-cloudwatch-metrics.html
+* <b>AWS CloudWatch Parameters</b>: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
