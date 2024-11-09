@@ -25,7 +25,7 @@ The <b>ConsumedLCUs</b> is a metric that tracks the number of Linux Container Un
   * <b>Maximum</b>: Maximum of the number of Linux Container Units (LCUs) consumed by a Gateway Load Balancer (GWLB) to process traffic.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>

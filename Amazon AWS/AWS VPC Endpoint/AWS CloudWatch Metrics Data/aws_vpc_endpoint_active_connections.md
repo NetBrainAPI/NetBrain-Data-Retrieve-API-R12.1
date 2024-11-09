@@ -25,7 +25,7 @@ The <b>ActiveConnections</b> metric for VPC Endpoints tracks the number of activ
   * <b>Maximum</b>: Identifies peak connection counts.
 * <b>Period</b>: Default value is 300 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>

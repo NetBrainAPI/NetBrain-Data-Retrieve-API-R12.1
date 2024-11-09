@@ -25,7 +25,7 @@ The <b>ActiveFlowCount</b> is a metric that tracks the number of active connecti
   * <b>Maximum</b>: Maximum of the number of active connections handled by a Gateway Load Balancer (GWLB) at a given time.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>

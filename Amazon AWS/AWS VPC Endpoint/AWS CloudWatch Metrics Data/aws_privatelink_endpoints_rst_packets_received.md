@@ -25,7 +25,7 @@ The <b>RstPacketsReceived</b>metric for VPC Endpoints tracks the number of TCP r
   * <b>Maximum</b>: Identifies peak occurrences of RST packet reception, potentially indicating issues with connection stability.
 * <b>Period</b>: Default value is 300 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring
+    * <b>300 seconds</b> for real-time monitoring.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>

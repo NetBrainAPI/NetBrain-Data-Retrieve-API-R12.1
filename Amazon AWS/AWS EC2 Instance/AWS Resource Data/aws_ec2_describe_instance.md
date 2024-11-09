@@ -7,9 +7,9 @@ An EC2 (Elastic Compute Cloud) instance is a virtual server in the cloud offered
 
 
 
-The "Describe EC2 Instance" API offers detailed information about the specific EC2. The response includes instance type, ami, IP address, etc.
+The <b>Describe EC2 Instance</b> API offers detailed information about the specific EC2. The response includes instance type, ami, IP address, etc.
 
-This API is integrated into the AWS EC2 instance in NetBrain. It corresponds with the describe_instances function of the AWS REST API, using the instance-id filter to retrieve specific information.
+This API is integrated into the AWS EC2 instance in NetBrain. It corresponds with the describe_instances function of the AWS REST API, using the `instance-id` filter to retrieve specific information.
 
 
 
