@@ -1,40 +1,43 @@
 # Table of Contents
-- [Introduction](#introduction)
+- [Overview](#overview)
+- [Metric Info](#metric-info)
+- [User-Defined Parameters](#user-defined-parameters)
+- [Use Cases Example](#example)
+    - [Use Case 1 -- Load Balancer Performance Tuning](#example-1) 
+    - [Use Case 2 -- Capacity Planning and Scaling](#example-2)
+- [Reference](#reference)
+
+# Overview <a name="overview"></a>
+The <b>ActiveConnectionCount</b> metric measures the total number of concurrent TCP connections that are active between clients and the load balancer, as well as between the load balancer and the targets. This metric provides an indication of the load balancer's traffic volume and helps in managing its capacity and performance.
+
+# Metric Info <a name="metric-info"></a>
+* <b>Metric Name</b>: ActiveConnectionCount
+* <b>Namespace</b>: AWS/ApplicationELB
+* <b>Unit</b>: Count
+* <b>Display Name in NetBrain</b>: Active Connection Count
+
+# User-Defined Parameters <a name="user-defined-parameters"></a>
+* <b>Start Time / End Time</b>: Specify the time range for viewing data points, useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
+* <b>Statistics</b>: Default value is Sum.
+  * <b>Average</b>: Provides the average number of active connections over a selected period, useful for observing general connection trends.
+  * <b>Sum</b>: Displays the total number of active connections within the specified time range, useful for understanding the overall connection load.
+  * <b>Minimum</b>: Indicates periods with least active connections, showing times of low or no traffic.
+  * <b>Maximum</b>: Shows the peak number of active connections, helping to identify load peaks.
+* <b>Period</b>: Default value is 300 second.
+  * <b>Recommended Values</b>:
+    * <b>300 seconds</b> for real-time monitoring.
+    * <b>3600 seconds</b> for broader trend analysis over longer durations.
+
+# Use Cases Example <a name="example"></a>
+## Use Case 1: Load Balancer Performance Tuning <a name="example-1"></a>
+Use this metric to identify periods with high active connections and ensure the ALB is performing optimally, especially during peak traffic times or when scaling is required.
 
 
-# Introduction <a name="introduction"></a>
-The "Active Connection Count" metric in AWS typically refers to the number of active connections between clients and the Elastic Load Balancer (ELB). 
-This metric is essential for understanding the current load on the load balancer and assessing its capacity to handle incoming traffic.
-
-The API response contains the number of active connections between clients and the load balancer at any given time.
-
-This API is integrated into the AWS Application Loadbalancer in NetBrain. It corresponds with the `get_metric_data` function of the CloudWatch resource in the AWS REST API.
+## Use Case 2: Capacity Planning and Scaling <a name="example-2"></a>
+Analyze the Active Connection Count metric over time to help plan for scaling decisions, ensuring the load balancer has sufficient capacity to handle increasing traffic volumes.
 
 
 
-We use the below parameter value to fetch the relevant metric data.
-
-
-# Content <a name="content"></a>
-|**Name**|**Value**|
-|------|------|
-| Metric Name | ActiveConnectionCount |
-| Duration* | last 24 hours |
-| Maximum Data Points* | 30 |
-| Period* | 3600 |
-| Stat* | Sum |
-
-
-Duration: Refers to the period over which a particular metric is measured
-
-Maximum Data Points: The maximum number of data points the request should return before paginating
-
-Period: The granularity, in seconds, of the returned data points
-
-Stat: The statistic to return. <b>Sum</b> is the sum of the values of the all data points collected during the period
-
-
-
-For more details about the AWS CloudWatch API, please refer to the following document: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
-
-For more details about the ActiveConnectionCount metric, please refer to the following document: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html#load-balancer-metric-table:~:text=ActiveConnectionCount
+# Reference <a name="reference"></a>
+* <b>Metrics Details</b>: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html
+* <b>AWS CloudWatch Parameters</b>: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/get_metric_data.html
