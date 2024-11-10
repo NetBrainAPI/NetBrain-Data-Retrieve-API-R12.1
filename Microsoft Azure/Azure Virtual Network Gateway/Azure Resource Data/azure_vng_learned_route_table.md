@@ -11,6 +11,6 @@ The original Azure RESTful API used is <Virtual Network Gateways - Get Learned R
 
 
 
-For a complete list of available API resources for Azure Virtual Network Gateway , please refer to Microsoft document: https://learn.microsoft.com/en-us/rest/api/network-gateway/virtual-network-gateways?view=rest-network-gateway-2023-09-01
+For a complete list of available API resources for Azure Virtual Network Gateway, please refer to Microsoft document: https://learn.microsoft.com/en-us/rest/api/network-gateway/virtual-network-gateways?view=rest-network-gateway-2023-09-01
 
 For the original Azure API detailed information, please refer to Microsoft document: https://learn.microsoft.com/en-us/rest/api/network-gateway/virtual-network-gateways/get-learned-routes?view=rest-network-gateway-2023-09-01&tabs=HTTP

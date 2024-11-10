@@ -11,19 +11,18 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 
 
 # Metric Info <a name="metric-info"></a>
-* <b>Azure REST API Name</b>: AverageBandwidth 
+* <b>Azure REST API Name</b>: AverageBandwidth
 * <b>NetBrain Display Name</b>: Average Bandwidth
 * <b>Unit</b>: BytesPerSecond
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Maximum. Default value is <b>Maximum</b>.
-  * <b>Maximum</b>: The largest value captured over the aggregation interval.
-* <b>Interval</b>: Valid values: PT1M, PT5M, PT15M, PT30M, PT1H, PT6H, PT12H and P1D. Default value is <b>PT1M</b>.
-  * <b>PT1M </b>: Reporting interval for Metrics will have a timegrain of 1 minutes.
-  * <b>PT5M </b>: Reporting interval for Metrics will have a timegrain of 5 minutes.
-  * <b>PT15M</b>: Reporting interval for Metrics will have a timegrain of 15 minute.
-  * <b>PT30M</b>: Reporting interval for Metrics will have a timegrain of 30 minute.
+* <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Average. Default value is <b>Average</b>.
+  * <b>Average</b>: The average of the metric values captured over the aggregation interval.
+* <b>Interval</b>: Valid values: PT5M, PT15M, PT30M, PT1H, PT6H, PT12H and P1D. Default value is <b>PT5M</b>.
+  * <b>PT5M</b>: Reporting interval for Metrics will have a timegrain of 5 minute.
+  * <b>PT15M</b>: Reporting interval for Metrics will have a timegrain of 15 minutes.
+  * <b>PT30M</b>: Reporting interval for Metrics will have a timegrain of 30 minutes.
   * <b>PT1H</b>: Reporting interval for Metrics will have a timegrain of 1 hour.
   * <b>PT6M</b>: Reporting interval for Metrics will have a timegrain of 6 hours.
   * <b>PT12M</b>: Reporting interval for Metrics will have a timegrain of 12 hours.
@@ -34,6 +33,6 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 
 
 # Reference <a name="reference"></a>
-* <b>Metrics Details</b>: https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-network-virtualhubs-metrics
+* <b>Metrics Details</b>: https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-network-virtualnetworkgateways-metrics
 * <b>Metrics API</b>: https://learn.microsoft.com/en-us/rest/api/monitor/metrics/list?view=rest-monitor-2023-10-01&tabs=HTTP
 * <b>Supported Metrics</b>: https://learn.microsoft.com/en-us/azure/azure-monitor/reference/metrics-index
