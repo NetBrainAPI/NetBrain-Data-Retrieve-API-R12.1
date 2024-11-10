@@ -5,13 +5,13 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve the current number of proxy-only addresses by state. Sampled every 60 seconds.
+The API is used to retrieve the number of requests served by HTTP/S load balancer.
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
 
 # Metric Info <a name="metric-info"></a>
-* <b>Resource Label Used</b>: The unique numerical identifier of the subnetwork (subnetwork_id).
-* <b>GCP Original Name</b>: subnet/proxy_only/addresses
+* <b>Resource Label Used</b>: The name of the forwarding rule (forwarding_rule_name).
+* <b>GCP Original Name</b>: https/external/regional/request_count
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
