@@ -17,5 +17,5 @@ For a complete list of available API resources for Azure Public IP Addresses, pl
 
 For the original Azure API detailed information, please refer to Microsoft document: 
 
-https://learn.microsoft.com/en-us/rest/api/compute/disks/get?view=rest-compute-2024-03-01&tabs=HTTP
-https://learn.microsoft.com/en-us/rest/api/virtualnetwork/public-ip-addresses/get?view=rest-virtualnetwork-2023-09-01&tabs=HTTP
+* https://learn.microsoft.com/en-us/rest/api/compute/disks/get?view=rest-compute-2024-03-01&tabs=HTTP
+* https://learn.microsoft.com/en-us/rest/api/virtualnetwork/public-ip-
