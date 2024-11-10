@@ -16,7 +16,7 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an maximum of multiple values. Valid values: Maximum. Default value is <b>Maximum</b>.
+* <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Maximum. Default value is <b>Maximum</b>.
   * <b>Maximum</b>: The largest value captured over the aggregation interval.
 * <b>Interval</b>: Valid values: PT1M. Default value is <b>PT1M</b>.
   * <b>PT1M </b>: Reporting interval for Metrics will have a timegrain of 1 minute.
