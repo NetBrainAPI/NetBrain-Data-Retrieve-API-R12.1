@@ -5,13 +5,13 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Virtual Machine <b>Data Disk IOPS Consumed Percentage</b> metric data from Azure API Server (https://management.azure.com/). The metric is about percentage of data disk I/Os consumed per minute.
+The API is used to retrieve Azure Virtual Machine <b>VM Cached IOPS Consumed Percentage</b> metric data from Azure API Server (https://management.azure.com/). The metric is about percentage of cached disk IOPS consumed by the VM.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
 # Metric Info <a name="metric-info"></a>
-* <b>Azure REST API Name</b>: Data Disk IOPS Consumed Percentage
-* <b>NetBrain Display Name</b>: Data Disk IOPS Consumed Percentage
+* <b>Azure REST API Name</b>: VM Cached IOPS Consumed Percentage
+* <b>NetBrain Display Name</b>: VM Cached IOPS Consumed Percentage
 * <b>Unit</b>: Percent
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>

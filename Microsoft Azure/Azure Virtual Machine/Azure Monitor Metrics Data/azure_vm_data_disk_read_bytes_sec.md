@@ -5,12 +5,12 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Virtual Machine <b>Data Disk Read Bytes/Sec</b> metric data from Azure API Server (https://management.azure.com/). The metric is about Bytes/Sec read from a single disk during monitoring period.
+The API is used to retrieve Azure Virtual Machine <b>Data Disk Read Bytes/sec</b> metric data from Azure API Server (https://management.azure.com/). The metric is about Bytes/Sec read from a single disk during monitoring period.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
 # Metric Info <a name="metric-info"></a>
-* <b>Azure REST API Name</b>: Data Disk Read Bytes/Sec
+* <b>Azure REST API Name</b>: Data Disk Read Bytes/sec
 * <b>NetBrain Display Name</b>: Data Disk Read Bytes/Sec
 * <b>Unit</b>: BytesPerSecond
 
