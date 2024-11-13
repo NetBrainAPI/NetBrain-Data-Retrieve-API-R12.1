@@ -7,6 +7,8 @@
 # Overview <a name="overview"></a>
 The API is used to retrieve Azure Application Gateway <b>ApplicationGatewayTotalTime</b> metric data from Azure API Server (https://management.azure.com/). The metric is about time that it takes for a request to be processed and its response to be sent.
 
+It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
+
 
 # Metric Info <a name="metric-info"></a>
 * <b>Azure REST API Name</b>: ApplicationGatewayTotalTime
