@@ -32,7 +32,7 @@ The <b>PacketsIn</b> metric tracks the total volume of inbound data processed by
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Monitoring Inbound Traffic Volume <a name="example-1"></a>
-Track the Packets metric to gauge the volume of inbound data handled by the Transit Gateway, ensuring adequate network capacity to handle traffic load.
+Track the PacketsIn metric to gauge the volume of inbound data handled by the Transit Gateway, ensuring adequate network capacity to handle traffic load.
 
 ## Use Case 2: Troubleshooting Network Performance <a name="example-2"></a>
 Use this metric to identify periods of unexpectedly high inbound traffic that may impact performance, enabling timely intervention to optimize network efficiency.

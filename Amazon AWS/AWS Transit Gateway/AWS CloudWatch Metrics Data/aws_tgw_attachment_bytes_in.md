@@ -11,8 +11,6 @@
 The <b>BytesIn</b> metric for Transit Gateway Attachments tracks the total volume of inbound data processed by each attachment to an AWS Transit Gateway. Monitoring this metric is essential for understanding the amount of data entering the network through specific attachments, which helps in traffic management and capacity planning.
 
 
-
-
 # Metric Info <a name="metric-info"></a>
 * <b>Metric Name</b>: BytesIn
 * <b>Namespace</b>: AWS/TransitGateway
