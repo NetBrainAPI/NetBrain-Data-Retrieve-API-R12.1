@@ -3,37 +3,37 @@
 - [Metric Info](#metric-info)
 - [User-Defined Parameters](#user-defined-parameters)
 - [Use Cases Example](#example)
-    - [Use Case 1 -- Capacity Planning](#example-1) 
-    - [Use Case 2 -- Analyzing Outbound Traffic Patterns](#example-2)
+    - [Use Case 1 -- Monitoring Traffic Volume](#example-1) 
+    - [Use Case 2 -- Detecting Anomalies](#example-2)
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The <b>BytesOutToSource</b> metric tracks the total number of bytes sent to the source through an AWS NAT Gateway. This metric is critical for monitoring outbound data traffic, helping to understand bandwidth utilization, identify performance issues, and optimize resource management.
+The <b>ConnectionAttemptCount</b> metric tracks the total number of connection attempts made through an AWS NAT Gateway. This metric provides insight into the volume of outbound connection requests being processed, which can be useful for analyzing traffic patterns and managing NAT Gateway performance under various load conditions.
 
 # Metric Info <a name="metric-info"></a>
-* <b>Metric Name</b>: BytesOutToSource
+* <b>Metric Name</b>: ConnectionAttemptCount
 * <b>Namespace</b>: AWS/NATGateway
-* <b>Unit</b>: Bytes
-* <b>Display Name in NetBrain</b>: Bytes Out To Source
+* <b>Unit</b>: Count
+* <b>Display Name in NetBrain</b>: Connection Attempt Count
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
 * <b>Statistics</b>: Default value is Sum.
-  * <b>Average</b>: Useful for observing trends in outbound data traffic to sources over time.
-  * <b>Sum</b>: Shows the total number of bytes sent to the source within the specified period.
-  * <b>Minimum</b>: Indicates the lowest count of bytes sent, helping to understand periods of low activity.
-  * <b>Maximum</b>: Highlights peak counts of bytes sent, which may suggest times of high outbound traffic.
+  * <b>Average</b>: Useful for observing trends in connection attempts over time.
+  * <b>Sum</b>: Shows the total number of connection attempts within the specified period.
+  * <b>Minimum</b>: Indicates the lowest count of connection attempts recorded, highlighting times with low activity.
+  * <b>Maximum</b>: Highlights peak counts of connection attempts, which can identify periods of heavy usage.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring to quickly assess outgoing traffic levels to sources.
+    * <b>300 seconds</b> for real-time monitoring to quickly detect spikes in connection attempts.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
-## Use Case 1: Capacity Planning <a name="example-1"></a>
-Analyze trends in outbound byte counts to inform capacity planning for the NAT Gateway. Consistently high outbound traffic may require scaling up resources to maintain performance and avoid potential bottlenecks.
+## Use Case 1: Monitoring Traffic Volume <a name="example-1"></a>
+Track the ConnectionAttemptCount to understand outbound connection patterns and identify periods of high traffic to help manage NAT Gateway capacity.
 
-## Use Case 2: Analyzing Outbound Traffic Patterns <a name="example-2"></a>
-Track the outbound byte counts to identify patterns in data transfer over time, informing decisions about scaling resources and adjusting configurations to enhance data handling efficiency.
+## Use Case 2: Detecting Anomalies <a name="example-2"></a>
+Monitor for unusual spikes or drops in connection attempts, which could indicate potential issues or security incidents requiring attention.
 
 
 # Reference <a name="reference"></a>

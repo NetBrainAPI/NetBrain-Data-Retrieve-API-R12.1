@@ -26,7 +26,7 @@ The <b>ConnectionEstablishedCount</b> metric tracks the total number of successf
   * <b>Maximum</b>: Highlights peak counts of successful connections, which may identify times of highest network load.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
-    * <b>300 seconds</b> for real-time monitoring to quickly assess connection success rates promptly.
+    * <b>300 seconds</b> for real-time monitoring to assess connection success rates promptly.
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
 
 # Use Cases Example <a name="example"></a>
