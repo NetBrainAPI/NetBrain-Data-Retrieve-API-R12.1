@@ -23,7 +23,7 @@ The <b>CPUCreditBalance</b> is a metric that measures the number of CPU credits 
   * <b>Sum</b>: The total number of CPU credits remaining for a burstable specified time period.
   * <b>Minimum</b>: The minimum number of CPU credits remaining at any point during for a burstable time period.
   * <b>Maximum</b>: The maximum number of CPU credits remaining at any point for a burstable time period.
-* <b>Period</b>: Default value is 300 second.
+* <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring
     * <b>3600 seconds</b> for broader trend analysis over longer durations.

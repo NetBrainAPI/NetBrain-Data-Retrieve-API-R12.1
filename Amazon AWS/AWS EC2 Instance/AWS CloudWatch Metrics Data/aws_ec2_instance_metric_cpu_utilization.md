@@ -24,7 +24,7 @@ The <b>CPUUtilization</b> is a metric that measures the percentage of CPU time u
   * <b>Sum</b>: Sum of the amount of CPU capacity used by an EC2 instance over a selected period.
   * <b>Minimum</b>: Minimum amount of CPU capacity used by an EC2 instance over a selected period.
   * <b>Maximum</b>: Maximum amount of CPU capacity used by an EC2 instance over a selected period.
-* <b>Period</b>: Default value is 300 second.
+* <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring
     * <b>3600 seconds</b> for broader trend analysis over longer durations.

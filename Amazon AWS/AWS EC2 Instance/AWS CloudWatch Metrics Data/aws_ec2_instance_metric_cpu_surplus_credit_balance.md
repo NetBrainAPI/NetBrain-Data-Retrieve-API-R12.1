@@ -24,7 +24,7 @@ The <b>CPUSurplusCreditBalance</b> is a metric that measures the number of surpl
   * <b>Sum</b>: The total number of surplus CPU credits consumed over an unlimited burstable performance time period.
   * <b>Minimum</b>: The minimum number of surplus CPU credits consumed at any point over an unlimited burstable performance time period.
   * <b>Maximum</b>: The maximum number of surplus CPU credits consumed at any point over an unlimited burstable performance time period.
-* <b>Period</b>: Default value is 300 second.
+* <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring
     * <b>3600 seconds</b> for broader trend analysis over longer durations.

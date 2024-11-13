@@ -21,6 +21,7 @@ The <b>MetadataNoToken</b> is a metric that indicates the number of times an EC2
 * <b>Statistics</b>: Default value is Sum.
   * <b>Sum</b>: The sum is the total number of times the Instance Metadata Service (IMDS) was accessed using the less secure IMDSv1 protocol within a specific time period.
   * <b>Percentile</b>: The percent value of the Instance Metadata Service (IMDS) was accessed using the less secure IMDSv1 protocol within a specific time period.
+* <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring
     * <b>3600 seconds</b> for broader trend analysis over longer durations.

@@ -18,9 +18,9 @@ The <b>StatusCheckFailed_System</b> is a CloudWatch metric that indicates whethe
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Specify the time range for viewing data points. This is useful for historical analysis or monitoring recent trends. Default time range is last 24 hours.
-* <b>Statistics</b>: The sum of system status checks done in the last minute.
+* <b>Statistics</b>: Default value is Sum.
   * <b>Average</b>: The average value of system status checks done in the last minute.
-  * <b>Sum</b>: The sum of the instance status check in the last minute with values 0 or 1.
+  * <b>Sum</b>: The sum of system status checks done in the last minute.
 * <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring.

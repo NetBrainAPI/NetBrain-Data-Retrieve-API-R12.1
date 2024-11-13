@@ -23,7 +23,7 @@ The <b>CPUSurplusCreditsCharged</b> is a metric that measures the number of surp
   * <b>Sum</b>: The total number of surplus CPU credits consumed during the specified time period.
   * <b>Minimum</b>: The minimum number of surplus CPU credits consumed at any point during the specified time period.
   * <b>Maximum</b>: The maximum number of surplus CPU credits consumed at any point during the specified time period.
-* <b>Period</b>: Default value is 300 second.
+* <b>Period</b>: Default value is 3600 second.
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time monitoring
     * <b>3600 seconds</b> for broader trend analysis over longer durations.
