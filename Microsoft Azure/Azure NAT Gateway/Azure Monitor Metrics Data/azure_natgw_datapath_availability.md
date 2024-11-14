@@ -12,8 +12,8 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 
 # Metric Info <a name="metric-info"></a>
 * <b>Azure REST API Name</b>: DatapathAvailability 
-* <b>NetBrain Display Name</b>: Qos Drop Bits In Per Second
-* <b>Unit</b>: BitsPerSecond
+* <b>NetBrain Display Name</b>: Datapath Availability
+* <b>Unit</b>: Count
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.

@@ -20,8 +20,8 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 * <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Maximum. Default value is <b>Maximum</b>.
   * <b>Maximum</b>: The largest value captured over the aggregation interval.
 * <b>Interval</b>: Valid values: PT1M, PT5M, PT15M, PT30M, PT1H, PT6H, PT12H and P1D. Default value is <b>PT1M</b>.
-  * <b>PT1M </b>: Reporting interval for Metrics will have a timegrain of 1 minutes.
-  * <b>PT5M </b>: Reporting interval for Metrics will have a timegrain of 5 minutes.
+  * <b>PT1M</b>: Reporting interval for Metrics will have a timegrain of 1 minutes.
+  * <b>PT5M</b>: Reporting interval for Metrics will have a timegrain of 5 minutes.
   * <b>PT15M</b>: Reporting interval for Metrics will have a timegrain of 15 minute.
   * <b>PT30M</b>: Reporting interval for Metrics will have a timegrain of 30 minute.
   * <b>PT1H</b>: Reporting interval for Metrics will have a timegrain of 1 hour.
