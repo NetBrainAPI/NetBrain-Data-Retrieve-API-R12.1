@@ -5,13 +5,13 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve the hit count of various firewalls for network traffic from GCP Platform. Please note that this metric applies only to firewalls for which Firewall Logging has been turned on . 
+The API is used to retrieve the hit count of various firewalls for network traffic from GCP Platform. Please note that this metric applies only to firewalls for which Firewall Logging has been turned on. 
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
 
 # Metric Info <a name="metric-info"></a>
 * <b>Resource Label Used</b>: The unique user provided name of the subnetwork (subnetwork_name).
-* <b>GCP Original Name</b>: subnet/all/firewall_hit_coun
+* <b>GCP Original Name</b>: subnet/all/firewall_hit_count
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
