@@ -5,13 +5,13 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Load Balancer <b>VipAvailability</b> metric data from Azure API Server (https://management.azure.com/). The metric is about average Load Balancer data path availability per time duration
+The API is used to retrieve Load Balancer <b>VipAvailability</b> metric data from Azure API Server (https://management.azure.com/). The metric is about average Load Balancer data path availability per time duration.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
 
 # Metric Info <a name="metric-info"></a>
-* <b>Azure REST API Name</b>: VipAvailability   
+* <b>Azure REST API Name</b>: VipAvailability
 * <b>NetBrain Display Name</b>: Vip Availability 
 * <b>Unit</b>: Count
 

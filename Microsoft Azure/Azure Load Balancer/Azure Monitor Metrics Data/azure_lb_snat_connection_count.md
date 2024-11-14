@@ -5,14 +5,14 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Load Balancer <b>SnatConnectionCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is about total number of Packets transmitted within time period.
+The API is used to retrieve Load Balancer <b>SnatConnectionCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is about total number of new SNAT connections created within time period.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
 
 # Metric Info <a name="metric-info"></a>
-* <b>Azure REST API Name</b>: PacketCount  
-* <b>NetBrain Display Name</b>: Packet Count 
+* <b>Azure REST API Name</b>: SnatConnectionCount  
+* <b>NetBrain Display Name</b>: Snat Connection Count
 * <b>Unit</b>: Count
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
