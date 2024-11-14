@@ -11,7 +11,7 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 
 # Metric Info <a name="metric-info"></a>
 * <b>Azure REST API Name</b>: ExpressRouteGatewayPacketsPerSecond 
-* <b>NetBrain Display Name</b>:  Packets Per Second
+* <b>NetBrain Display Name</b>: Packets Per Second
 * <b>Unit</b>: CountPerSecond
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>

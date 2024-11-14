@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure ExpressRoute Gateway <b>ExpressRouteGatewayCountOfRoutesAdvertisedToPeer metric</b> data from Azure API Server (https://management.azure.com/). The metric is about count of routes advertised to peer by ExpressRoute Gateway.
+The API is used to retrieve Azure ExpressRoute Gateway <b>ExpressRouteGatewayCountOfRoutesAdvertisedToPeer</b> metric data from Azure API Server (https://management.azure.com/). The metric is about count of routes advertised to peer by ExpressRoute Gateway.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 

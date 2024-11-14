@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure ExpressRoute Gateway <b>ExpressRouteGatewayMaxFlowsCreationRatemetric</b> data from Azure API Server (https://management.azure.com/). The metric is about maximum number of flows created per second on ExpressRoute Gateway.
+The API is used to retrieve Azure ExpressRoute Gateway <b>ExpressRouteGatewayMaxFlowsCreationRate</b> metric data from Azure API Server (https://management.azure.com/). The metric is about maximum number of flows created per second on ExpressRoute Gateway.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
