@@ -18,8 +18,9 @@ It leverages the Azure Monitor solution to fetch metrics of Azure resources via 
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
 * <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Average. Default value is <b>Average</b>.
   * <b>Average</b>: The average of the metric values captured over the aggregation interval.
-* <b>Interval</b>: Valid values: PT1M. Default value is <b>PT1M</b>.
-  * <b>PT1M </b>: Reporting interval for Metrics will have a timegrain of 1 minute.
+* <b>Interval</b>: Valid values: PT1M and PT1H. Default value is <b>PT1M</b>.
+  * <b>PT1M</b>: Reporting interval for Metrics will have a timegrain of 1 minute.
+  * <b>PT1H</b>: Reporting interval for Metrics will have a timegrain of 1 hour.
 * <b>Auto Adjust Timegrain</b>: When set to true, if the timespan passed in is not supported by this metric, the API will return the result using the closest supported timespan. When set to false, an error is returned for invalid timespan parameters. Defaults to <b>false</b>.
 * <b>Validate Dimensions</b>: When set to false, invalid filter parameter values will be ignored. When set to true, an error is returned for invalid filter parameters. Defaults to <b>true</b>.
 * <b>Top</b>: The maximum  number of records to retrieve per resource ID in the request. Valid only if filter is specified. Defaults to <b>10</b>.
