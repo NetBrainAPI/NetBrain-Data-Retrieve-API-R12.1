@@ -11,7 +11,7 @@ It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the 
 
 # Metric Info <a name="metric-info"></a>
 * <b>Resource Label Used</b>: Firewall policy resource ID
-* <b>GCP Original Name</b>: quota/fqdns_per_hierarchical_firewall_policy/usage
+* <b>GCP Original Name</b>: quota/fqdns_per_hierarchical_firewall_policy/exceeded
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
