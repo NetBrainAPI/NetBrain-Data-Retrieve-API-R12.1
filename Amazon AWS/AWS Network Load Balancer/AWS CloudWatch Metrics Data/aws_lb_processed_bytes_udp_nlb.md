@@ -4,7 +4,7 @@
 - [User-Defined Parameters](#user-defined-parameters)
 - [Use Cases Example](#example)
     - [Use Case 1 -- Identify Bottlenecks](#example-1) 
-    - [Use Case 2 -- Monitor SSL/TLS Performance](#example-2)
+    - [Use Case 2 -- Monitor UDP-Based Applications](#example-2)
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
@@ -32,8 +32,8 @@ The <b>ProcessedBytes_UDP</b> is a metric that tracks the total number of bytes 
 ## Use Case 1: Identify Bottlenecks <a name="example-1"></a>
 High values of ProcessedBytes can indicate network congestion or bandwidth limitations. By monitoring this metric, you can identify and troubleshoot performance bottlenecks.
 
-## Use Case 2: Monitor SSL/TLS Performance <a name="example-2"></a>
-By tracking the amount of TLS traffic processed, you can assess the performance of your SSL/TLS termination and identify any issues.
+## Use Case 2: Monitor UDP-Based Applications <a name="example-2"></a>
+By tracking the amount of UDP traffic processed, you can assess the performance of UDP-based applications, such as DNS servers or streaming services.
 
 # Reference <a name="reference"></a>
 * <b>Metrics Details</b>: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-cloudwatch-metrics.html
